@@ -1,0 +1,191 @@
+main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.middle-section {
+    width: 100%;
+    display: flex;
+}
+
+.selection-groups {
+    width: 75%;
+}
+
+.categories-wrap {
+    width: 25%;
+    padding: 0 1rem;
+}
+
+.categories-wrap h2 {
+    margin-bottom: 0;
+}
+
+.categories-wrap > span {
+    color: rgb(151, 151, 151);
+    font-size: small;
+}
+
+.categories, .category-wrap {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.category {
+    color: grey;
+}
+
+.category-amount {
+    font-size: small;
+}
+
+/* .selection-group {
+
+} */
+
+.selection-groups > *:not(:last-child) {
+    margin-bottom: 1.75rem;
+}
+
+.category-group {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+.top-categories-title {
+    margin-bottom: 1rem;
+}
+
+.top-categories {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: hidden;
+}
+
+.top-categories > div {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: rgba(37, 38, 40, 0.2) 0px 4px 6px 0px;
+    padding: 1rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.data > h4, .data > p {
+    margin: 0;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.numbers {
+    color: grey;
+    font-size: 0.85rem;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.numbers span:first-child::before {
+    content: url('../assets/images/books.svg');
+    margin-right: 0.25rem;
+}
+
+.numbers span:last-child::before {
+    content: url('../assets/images/audio.svg');
+    margin-right: 0.25rem;
+}
+
+.category-logo {
+    font-size: 3rem;
+}
+
+.selection {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+.selection:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.books,
+.book {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    overflow-x: hidden;
+}
+
+.book {
+    width: min-content;
+}
+
+.book a {
+    text-decoration: none;
+    color: black;
+}
+
+.book-cover {
+    border-radius: 0.5rem;
+}
+
+.book-title {
+    text-overflow: ellipsis;
+}
+
+.book-author {
+    font-size: small;
+    white-space: nowrap;
+}
+
+@media (max-width: 1124px) {
+    main {
+        width: 800px;
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        width: 95%;
+    }
+
+    .middle-section {
+        flex-direction: column;
+    }
+
+    .selection-groups {
+        width: 100%;
+    }
+
+    .categories-wrap {
+        width: 100%;
+    }
+
+    .books {
+        overflow-x: scroll;
+    }
+
+    .top-categories {
+        overflow-x: scroll;
+    }
+}

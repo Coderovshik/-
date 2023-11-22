@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrap {
+    width: 75px;
+    height: 75px;
+    margin: 0 1rem;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.search-bar-wrap {
+    width: 15rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+}
+
+input[type="search"] {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: solid 1px lightgray;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    color: grey;
+    font-weight: 600;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    content: url("../assets/images/cross.png");
+}
+
+input[type="search"]::placeholder {
+    color: rgb(185, 185, 185);
+}
+
+input[type="search"]:focus {
+    border: solid 1px darkgray;
+    text-decoration: none;
+}
+
+.navigation {
+    margin: 0 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation a {
+    color: grey;
+    text-decoration: none;
+}
+
+.navigation a:last-child {
+    font-weight: 700;
+}
+
+@media (max-width: 750px) {
+    header {
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+    }
+
+    .search-bar-wrap {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .search-bar-wrap {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
