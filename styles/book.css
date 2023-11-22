@@ -268,3 +268,93 @@ main {
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
+
+@media (max-width: 1024px) {
+    .book-section {
+        margin-top: 2.5rem;
+        flex-direction: column;
+    }
+
+    .cover-wrap, .description, .ownership {
+        width: 100%;
+    }
+
+    .cover-wrap {
+        height: 24rem;
+    }
+
+    .cover-wrap .cover {
+        left: calc(50% - 257px / 2);
+        top: 5.5rem;
+    }
+
+    .ownership {
+        padding: 0 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 875px) {
+    .section {
+        width: 95%;
+    }
+}
+
+@media (max-width: 750px) {
+    .cover-wrap {
+        height: 16rem;
+    }
+
+    .book-section {
+        margin-top: 1rem;
+    }
+
+    .cover-wrap .cover {
+        width: 175px;
+        left: calc(50% - 175px / 2);
+        top: 6.5rem;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 460px) {
+    .cover-wrap {
+        height: 12rem;
+    }
+
+    .book-section {
+        margin-top: 1rem;
+    }
+
+    .cover-wrap .cover {
+        width: 125px;
+        left: calc(50% - 125px / 2);
+        top: 11rem;
+        object-fit: contain;
+    }
+
+    .genres > div, .themes > div {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 375px) {
+    .description {
+        padding: 0 1rem;
+    }
+
+    .ownership {
+        padding: 1.5rem 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .read-wrap {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 348px) {
+    .cover-wrap .cover {
+        top: 13rem;
+    }
+}
