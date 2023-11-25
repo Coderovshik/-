@@ -191,6 +191,16 @@ button[type="submit"]:hover {
     left: 0;
 }
 
+@media (max-width: 625px) {
+    body {
+        height: max-content;
+    }
+
+    form {
+        margin-top: 3rem;
+    }
+}
+
 @media (max-width: 365px) {
     label input {
         width: 100%;
