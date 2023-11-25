@@ -62,125 +62,125 @@ let selections = [
         ],
     },
     {
-        title: 'Лучшие бизнес-книги',
-        description: 'Деловая и научно-популярная литература издательств «Манн, Иванов и Фербер», «Альпина Паблишер», «Олимп-Бизнес» и других',
+        title: 'Лучшие новые книги',
+        description: 'Добавьте лучшее в «Мои книги», чтобы ничего не упустить',
         books: [
             {
-                cover: '../assets/images/cover1.jpg',
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover2.jpg',
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 5,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover3.jpg',
-                rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
-                to: '../pages/book.html'
-            },
-            {
-                cover: '../assets/images/cover4.jpg',
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 3,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover5.jpg',
+                cover: '../assets/images/cover2.1.jpg',
+                rating: 2,
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
+                to: '../pages/book.html'
+            },
+            {
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover6.jpg',
+                cover: '../assets/images/cover2.1.jpg',
+                rating: 5,
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
+                to: '../pages/book.html'
+            },
+            {
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover7.jpg',
+                cover: '../assets/images/cover2.1.jpg',
                 rating: 3,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
-                to: '../pages/book.html'
-            },
-            {
-                cover: '../assets/images/cover8.jpg',
-                rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Киноспекуляции',
+                author: 'Квентин Тарантино',
                 to: '../pages/book.html'
             },
         ],
     },
     {
-        title: 'Лучшие бизнес-книги',
-        description: 'Деловая и научно-популярная литература издательств «Манн, Иванов и Фербер», «Альпина Паблишер», «Олимп-Бизнес» и других',
+        title: 'Лучшие бесплатные книги',
+        description: 'Родная классика и проверенные временем бестселлеры',
         books: [
             {
-                cover: '../assets/images/cover1.jpg',
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover2.jpg',
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 5,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover3.jpg',
-                rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
-                to: '../pages/book.html'
-            },
-            {
-                cover: '../assets/images/cover4.jpg',
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 3,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover5.jpg',
+                cover: '../assets/images/cover2.2.jpg',
+                rating: 2,
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
+                to: '../pages/book.html'
+            },
+            {
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover6.jpg',
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
             {
-                cover: '../assets/images/cover7.jpg',
+                cover: '../assets/images/cover2.2.jpg',
+                rating: 5,
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
+                to: '../pages/book.html'
+            },
+            {
+                cover: '../assets/images/cover2.2.jpg',
                 rating: 3,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
-                to: '../pages/book.html'
-            },
-            {
-                cover: '../assets/images/cover8.jpg',
-                rating: 4,
-                title: 'Переговоры за минуту. Экспресс-курс делового общения',
-                author: 'Эдуард Трымбовецкий',
+                title: 'Отцы и дети',
+                author: 'Иван Тургенев',
                 to: '../pages/book.html'
             },
         ],
